@@ -1,0 +1,12 @@
+body {
+}
+.visualization-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.visualization-container circle {
+  fill: #9c28287d;
+}
