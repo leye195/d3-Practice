@@ -9,3 +9,7 @@ D3 활용 연습
 ### practice2
 
 - 서울 여름 평균,최저,최고 온도 변화 그래프 (pratice2, ta_20200710030300.csv 활용)
+
+### practice3
+
+- 영화 평점 분포 막대기 그래프 (practice3, ratings.csv 활용)
