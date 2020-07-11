@@ -10,3 +10,37 @@ svg {
   border: 3px solid black;
   border-radius: 10px;
 }
+
+rect {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 1s ease-out;
+}
+
+rect:hover {
+  opacity: 1;
+}
+
+.info-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 15px;
+  background-color: transparent;
+  border-radius: 20px;
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+.info-box.show {
+  visibility: visible;
+}
+
+.info-box .rating-count {
+  color: black;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+}
