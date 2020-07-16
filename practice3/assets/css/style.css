@@ -9,6 +9,7 @@ body {
 svg {
   border: 3px solid black;
   border-radius: 10px;
+  margin: 5px;
 }
 
 rect {
