@@ -13,3 +13,9 @@ D3 활용 연습
 ### practice3
 
 - 영화 평점 분포 막대기 그래프 (practice3, ratings.csv 활용)
+  d3.rect() 활용방법 및 scaleBand 활용 범위 설정, axisBottom, axisLeft 활용 x축,y축 그리기
+
+### practice4
+
+- 도넛 그래프 그리기 (world.csv 활용)
+  d3.pie() 활용방법 및 그래프 내부에 텍스트 추가방법

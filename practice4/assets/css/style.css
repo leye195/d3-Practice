@@ -1,0 +1,28 @@
+.data-visualization-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freedom,
+.social,
+.gdp {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.freedom:hover,
+.social:hover,
+.gdp:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.freedom-text,
+.social-text,
+.gdp-text {
+  fill: "white";
+}
